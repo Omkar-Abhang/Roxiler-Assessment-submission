@@ -126,8 +126,11 @@ Deploy & get a public URL
 
 ## 🛠 Future Improvements
 ✅ User Authentication
+
 ✅ Download Transactions as CSV
+
 ✅ Dark Mode Theme
+
 ✅ Admin Panel for Managing Transactions
 
 
