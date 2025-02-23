@@ -8,10 +8,16 @@ app.use(cors());
 app.use(express.json());
 app.use('/api', TransactionRoutes);
 
-// Connect to MongoDB
-mongoose.connect('mongodb+srv://omkarabhang36:jfse89EZ9kvbmMMR@roxiler-database.xhq01.mongodb.net/transactionDB', {
+
+// Connect to MongoDB using environment variable
+const mongoURI = process.env.MONGO_URI;
+mongoose.connect(mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-});
+})
+.then(() => console.log("✅ Connected to MongoDB"))
+.catch(err => console.error("❌ MongoDB Connection Error:", err));
 
-app.listen(5000, () => console.log('https://roxiler-backend-1ukq.onrender.com'));
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
