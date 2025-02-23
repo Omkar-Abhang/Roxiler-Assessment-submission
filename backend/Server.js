@@ -9,9 +9,9 @@ app.use(express.json());
 app.use('/api', TransactionRoutes);
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/transactionsDB', {
+mongoose.connect('mongodb+srv://omkarabhang36:jfse89EZ9kvbmMMR@roxiler-database.xhq01.mongodb.net/transactionDB', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
 
-app.listen(5000, () => console.log('Server running on port 5000'));
+app.listen(5000, () => console.log('https://roxiler-backend-1ukq.onrender.com'));
