@@ -52,8 +52,8 @@ It includes **dynamic charts, category analysis, and filtering** using React, No
 
 ### 1️⃣ Clone the Repository
 ```
-git clone https://github.com/your-username/mern-transactions-dashboard.git
-cd mern-transactions-dashboard
+git clone https://github.com/Omkar-Abhang/Roxiler-Assessment-submission.git
+cd Roxiler-Assessment-submission
 ```
 
 ### 2️⃣ Backend Setup
@@ -88,16 +88,23 @@ Frontend runs on: http://localhost:3000
 ### Method	Endpoint	Description
 
 GET	/api/transactions	Fetch paginated transactions
+
 GET	/api/pie-chart	Get category-wise item counts
+
 GET	/api/bar-chart	Get price range analysis
+
 GET	/api/combined-data	Fetch all API data in one response
 
 ## 🎨 UI Features
  
 🎯 Dropdown for Month Selection
+
 📊 Pie Chart (Category-Wise Analysis)
+
 📈 Bar Chart (Price Analysis)
+
 🎛 Toggle Buttons to Show/Hide Charts
+
 📋 Table with Search & Pagination
 
 
