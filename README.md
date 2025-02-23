@@ -4,7 +4,7 @@
 A **MERN Stack Application** for managing and visualizing **financial transactions**.  
 It includes **dynamic charts, category analysis, and filtering** using React, Node.js, Express, and MongoDB.
 
-![Dashboard Screenshot](screenshots/dashboard.png)
+![Dashboard Screenshot](./ScreenShots/Dashboard.png)
 
 ---
 
@@ -35,16 +35,16 @@ It includes **dynamic charts, category analysis, and filtering** using React, No
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](./ScreenShots/Dashboard.png)
 
 ### Transactions Table
-![Transactions Table](screenshots/transactions_table.png)
+![Transactions Table](./ScreenShots/transactionTable.png)
 
 ### Pie Chart - Category Wise
-![Pie Chart](screenshots/pie_chart.png)
+![Pie Chart](./ScreenShots/piechart.png)
 
 ### Bar Chart - Price Ranges
-![Bar Chart](screenshots/bar_chart.png)
+![Bar Chart](ScreenShots/barchart.png)
 
 ---
 
